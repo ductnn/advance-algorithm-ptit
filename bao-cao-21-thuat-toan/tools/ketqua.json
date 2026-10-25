@@ -1,0 +1,572 @@
+[
+ {
+  "kich_ban": "DNA (σ = 4), m = 8",
+  "m": 8,
+  "n": 1000000,
+  "x": "GCATTCGG",
+  "xuat_hien": 11,
+  "thuat_toan": {
+   "01_karp_rabin": {
+    "xuat_hien": 11,
+    "so_sanh": 1344,
+    "thao_tac": 999993
+   },
+   "02_shift_or": {
+    "xuat_hien": 11,
+    "so_sanh": 0,
+    "thao_tac": 1000000
+   },
+   "03_morris_pratt": {
+    "xuat_hien": 11,
+    "so_sanh": 1249668,
+    "thao_tac": 0
+   },
+   "04_knuth_morris_pratt": {
+    "xuat_hien": 11,
+    "so_sanh": 1249489,
+    "thao_tac": 0
+   },
+   "05_automat_huu_han": {
+    "xuat_hien": 11,
+    "so_sanh": 0,
+    "thao_tac": 1000000
+   },
+   "06_simon": {
+    "xuat_hien": 11,
+    "so_sanh": 1249458,
+    "thao_tac": 0
+   },
+   "07_not_so_naive": {
+    "xuat_hien": 11,
+    "so_sanh": 1066873,
+    "thao_tac": 0
+   },
+   "08_turbo_bm": {
+    "xuat_hien": 11,
+    "so_sanh": 398366,
+    "thao_tac": 0
+   },
+   "09_apostolico_giancarlo": {
+    "xuat_hien": 11,
+    "so_sanh": 396479,
+    "thao_tac": 0
+   },
+   "10_zhu_takaoka": {
+    "xuat_hien": 11,
+    "so_sanh": 221821,
+    "thao_tac": 0
+   },
+   "11_berry_ravindran": {
+    "xuat_hien": 11,
+    "so_sanh": 252852,
+    "thao_tac": 0
+   },
+   "12_backward_oracle_matching": {
+    "xuat_hien": 11,
+    "so_sanh": 0,
+    "thao_tac": 347096
+   },
+   "13_colussi": {
+    "xuat_hien": 11,
+    "so_sanh": 1000037,
+    "thao_tac": 0
+   },
+   "14_galil_giancarlo": {
+    "xuat_hien": 11,
+    "so_sanh": 1000092,
+    "thao_tac": 0
+   },
+   "15_optimal_mismatch": {
+    "xuat_hien": 11,
+    "so_sanh": 352511,
+    "thao_tac": 0
+   },
+   "16_maximal_shift": {
+    "xuat_hien": 11,
+    "so_sanh": 341458,
+    "thao_tac": 0
+   },
+   "17_skip_search": {
+    "xuat_hien": 11,
+    "so_sanh": 374622,
+    "thao_tac": 125000
+   },
+   "18_horspool": {
+    "xuat_hien": 11,
+    "so_sanh": 483212,
+    "thao_tac": 0
+   },
+   "19_quick_search": {
+    "xuat_hien": 11,
+    "so_sanh": 393849,
+    "thao_tac": 0
+   },
+   "20_tuned_bm": {
+    "xuat_hien": 11,
+    "so_sanh": 119742,
+    "thao_tac": 444161
+   },
+   "21_raita": {
+    "xuat_hien": 11,
+    "so_sanh": 502974,
+    "thao_tac": 0
+   }
+  }
+ },
+ {
+  "kich_ban": "DNA (σ = 4), m = 32",
+  "m": 32,
+  "n": 1000000,
+  "x": "GGGTCCACTGGCCAACGTTGTAATATTTTAGG",
+  "xuat_hien": 1,
+  "thuat_toan": {
+   "01_karp_rabin": {
+    "xuat_hien": 1,
+    "so_sanh": 32,
+    "thao_tac": 999969
+   },
+   "02_shift_or": {
+    "xuat_hien": 1,
+    "so_sanh": 0,
+    "thao_tac": 1000000
+   },
+   "03_morris_pratt": {
+    "xuat_hien": 1,
+    "so_sanh": 1241983,
+    "thao_tac": 0
+   },
+   "04_knuth_morris_pratt": {
+    "xuat_hien": 1,
+    "so_sanh": 1015571,
+    "thao_tac": 0
+   },
+   "05_automat_huu_han": {
+    "xuat_hien": 1,
+    "so_sanh": 0,
+    "thao_tac": 1000000
+   },
+   "06_simon": {
+    "xuat_hien": 1,
+    "so_sanh": 1015571,
+    "thao_tac": 0
+   },
+   "07_not_so_naive": {
+    "xuat_hien": 1,
+    "so_sanh": 761758,
+    "thao_tac": 0
+   },
+   "08_turbo_bm": {
+    "xuat_hien": 1,
+    "so_sanh": 166260,
+    "thao_tac": 0
+   },
+   "09_apostolico_giancarlo": {
+    "xuat_hien": 1,
+    "so_sanh": 165616,
+    "thao_tac": 0
+   },
+   "10_zhu_takaoka": {
+    "xuat_hien": 1,
+    "so_sanh": 89218,
+    "thao_tac": 0
+   },
+   "11_berry_ravindran": {
+    "xuat_hien": 1,
+    "so_sanh": 120134,
+    "thao_tac": 0
+   },
+   "12_backward_oracle_matching": {
+    "xuat_hien": 1,
+    "so_sanh": 0,
+    "thao_tac": 120085
+   },
+   "13_colussi": {
+    "xuat_hien": 1,
+    "so_sanh": 726979,
+    "thao_tac": 0
+   },
+   "14_galil_giancarlo": {
+    "xuat_hien": 1,
+    "so_sanh": 726977,
+    "thao_tac": 0
+   },
+   "15_optimal_mismatch": {
+    "xuat_hien": 1,
+    "so_sanh": 173038,
+    "thao_tac": 0
+   },
+   "16_maximal_shift": {
+    "xuat_hien": 1,
+    "so_sanh": 163620,
+    "thao_tac": 0
+   },
+   "17_skip_search": {
+    "xuat_hien": 1,
+    "so_sanh": 343033,
+    "thao_tac": 31250
+   },
+   "18_horspool": {
+    "xuat_hien": 1,
+    "so_sanh": 243476,
+    "thao_tac": 0
+   },
+   "19_quick_search": {
+    "xuat_hien": 1,
+    "so_sanh": 213976,
+    "thao_tac": 0
+   },
+   "20_tuned_bm": {
+    "xuat_hien": 1,
+    "so_sanh": 61271,
+    "thao_tac": 222635
+   },
+   "21_raita": {
+    "xuat_hien": 1,
+    "so_sanh": 242845,
+    "thao_tac": 0
+   }
+  }
+ },
+ {
+  "kich_ban": "Chữ cái Latin (σ = 26), m = 8",
+  "m": 8,
+  "n": 1000000,
+  "x": "anaestnq",
+  "xuat_hien": 1,
+  "thuat_toan": {
+   "01_karp_rabin": {
+    "xuat_hien": 1,
+    "so_sanh": 116,
+    "thao_tac": 999993
+   },
+   "02_shift_or": {
+    "xuat_hien": 1,
+    "so_sanh": 0,
+    "thao_tac": 1000000
+   },
+   "03_morris_pratt": {
+    "xuat_hien": 1,
+    "so_sanh": 1038327,
+    "thao_tac": 0
+   },
+   "04_knuth_morris_pratt": {
+    "xuat_hien": 1,
+    "so_sanh": 1036881,
+    "thao_tac": 0
+   },
+   "05_automat_huu_han": {
+    "xuat_hien": 1,
+    "so_sanh": 0,
+    "thao_tac": 1000000
+   },
+   "06_simon": {
+    "xuat_hien": 1,
+    "so_sanh": 1036880,
+    "thao_tac": 0
+   },
+   "07_not_so_naive": {
+    "xuat_hien": 1,
+    "so_sanh": 1001424,
+    "thao_tac": 0
+   },
+   "08_turbo_bm": {
+    "xuat_hien": 1,
+    "so_sanh": 147857,
+    "thao_tac": 0
+   },
+   "09_apostolico_giancarlo": {
+    "xuat_hien": 1,
+    "so_sanh": 147857,
+    "thao_tac": 0
+   },
+   "10_zhu_takaoka": {
+    "xuat_hien": 1,
+    "so_sanh": 131337,
+    "thao_tac": 0
+   },
+   "11_berry_ravindran": {
+    "xuat_hien": 1,
+    "so_sanh": 112488,
+    "thao_tac": 0
+   },
+   "12_backward_oracle_matching": {
+    "xuat_hien": 1,
+    "so_sanh": 0,
+    "thao_tac": 156218
+   },
+   "13_colussi": {
+    "xuat_hien": 1,
+    "so_sanh": 998554,
+    "thao_tac": 0
+   },
+   "14_galil_giancarlo": {
+    "xuat_hien": 1,
+    "so_sanh": 998554,
+    "thao_tac": 0
+   },
+   "15_optimal_mismatch": {
+    "xuat_hien": 1,
+    "so_sanh": 138938,
+    "thao_tac": 0
+   },
+   "16_maximal_shift": {
+    "xuat_hien": 1,
+    "so_sanh": 137949,
+    "thao_tac": 0
+   },
+   "17_skip_search": {
+    "xuat_hien": 1,
+    "so_sanh": 44915,
+    "thao_tac": 125000
+   },
+   "18_horspool": {
+    "xuat_hien": 1,
+    "so_sanh": 147682,
+    "thao_tac": 0
+   },
+   "19_quick_search": {
+    "xuat_hien": 1,
+    "so_sanh": 134763,
+    "thao_tac": 0
+   },
+   "20_tuned_bm": {
+    "xuat_hien": 1,
+    "so_sanh": 5684,
+    "thao_tac": 147285
+   },
+   "21_raita": {
+    "xuat_hien": 1,
+    "so_sanh": 147840,
+    "thao_tac": 0
+   }
+  }
+ },
+ {
+  "kich_ban": "Chữ cái Latin (σ = 26), m = 32",
+  "m": 32,
+  "n": 1000000,
+  "x": "eftzwbjujiphswqenaitlhjgtjpmsqgn",
+  "xuat_hien": 1,
+  "thuat_toan": {
+   "01_karp_rabin": {
+    "xuat_hien": 1,
+    "so_sanh": 32,
+    "thao_tac": 999969
+   },
+   "02_shift_or": {
+    "xuat_hien": 1,
+    "so_sanh": 0,
+    "thao_tac": 1000000
+   },
+   "03_morris_pratt": {
+    "xuat_hien": 1,
+    "so_sanh": 1038475,
+    "thao_tac": 0
+   },
+   "04_knuth_morris_pratt": {
+    "xuat_hien": 1,
+    "so_sanh": 1038475,
+    "thao_tac": 0
+   },
+   "05_automat_huu_han": {
+    "xuat_hien": 1,
+    "so_sanh": 0,
+    "thao_tac": 1000000
+   },
+   "06_simon": {
+    "xuat_hien": 1,
+    "so_sanh": 1038475,
+    "thao_tac": 0
+   },
+   "07_not_so_naive": {
+    "xuat_hien": 1,
+    "so_sanh": 1001518,
+    "thao_tac": 0
+   },
+   "08_turbo_bm": {
+    "xuat_hien": 1,
+    "so_sanh": 54213,
+    "thao_tac": 0
+   },
+   "09_apostolico_giancarlo": {
+    "xuat_hien": 1,
+    "so_sanh": 54213,
+    "thao_tac": 0
+   },
+   "10_zhu_takaoka": {
+    "xuat_hien": 1,
+    "so_sanh": 33308,
+    "thao_tac": 0
+   },
+   "11_berry_ravindran": {
+    "xuat_hien": 1,
+    "so_sanh": 33717,
+    "thao_tac": 0
+   },
+   "12_backward_oracle_matching": {
+    "xuat_hien": 1,
+    "so_sanh": 0,
+    "thao_tac": 54474
+   },
+   "13_colussi": {
+    "xuat_hien": 1,
+    "so_sanh": 999969,
+    "thao_tac": 0
+   },
+   "14_galil_giancarlo": {
+    "xuat_hien": 1,
+    "so_sanh": 999969,
+    "thao_tac": 0
+   },
+   "15_optimal_mismatch": {
+    "xuat_hien": 1,
+    "so_sanh": 55665,
+    "thao_tac": 0
+   },
+   "16_maximal_shift": {
+    "xuat_hien": 1,
+    "so_sanh": 53759,
+    "thao_tac": 0
+   },
+   "17_skip_search": {
+    "xuat_hien": 1,
+    "so_sanh": 41402,
+    "thao_tac": 31250
+   },
+   "18_horspool": {
+    "xuat_hien": 1,
+    "so_sanh": 55271,
+    "thao_tac": 0
+   },
+   "19_quick_search": {
+    "xuat_hien": 1,
+    "so_sanh": 53995,
+    "thao_tac": 0
+   },
+   "20_tuned_bm": {
+    "xuat_hien": 1,
+    "so_sanh": 2136,
+    "thao_tac": 55097
+   },
+   "21_raita": {
+    "xuat_hien": 1,
+    "so_sanh": 55350,
+    "thao_tac": 0
+   }
+  }
+ },
+ {
+  "kich_ban": "Xấu nhất: y = a^n (n = 10^5), x = a^8",
+  "m": 8,
+  "n": 100000,
+  "x": "aaaaaaaa",
+  "xuat_hien": 99993,
+  "thuat_toan": {
+   "01_karp_rabin": {
+    "xuat_hien": 99993,
+    "so_sanh": 799944,
+    "thao_tac": 99993
+   },
+   "02_shift_or": {
+    "xuat_hien": 99993,
+    "so_sanh": 0,
+    "thao_tac": 100000
+   },
+   "03_morris_pratt": {
+    "xuat_hien": 99993,
+    "so_sanh": 100000,
+    "thao_tac": 0
+   },
+   "04_knuth_morris_pratt": {
+    "xuat_hien": 99993,
+    "so_sanh": 100000,
+    "thao_tac": 0
+   },
+   "05_automat_huu_han": {
+    "xuat_hien": 99993,
+    "so_sanh": 0,
+    "thao_tac": 100000
+   },
+   "06_simon": {
+    "xuat_hien": 99993,
+    "so_sanh": 100000,
+    "thao_tac": 0
+   },
+   "07_not_so_naive": {
+    "xuat_hien": 99993,
+    "so_sanh": 799944,
+    "thao_tac": 0
+   },
+   "08_turbo_bm": {
+    "xuat_hien": 99993,
+    "so_sanh": 100000,
+    "thao_tac": 0
+   },
+   "09_apostolico_giancarlo": {
+    "xuat_hien": 99993,
+    "so_sanh": 100000,
+    "thao_tac": 0
+   },
+   "10_zhu_takaoka": {
+    "xuat_hien": 99993,
+    "so_sanh": 799944,
+    "thao_tac": 0
+   },
+   "11_berry_ravindran": {
+    "xuat_hien": 99993,
+    "so_sanh": 799944,
+    "thao_tac": 0
+   },
+   "12_backward_oracle_matching": {
+    "xuat_hien": 99993,
+    "so_sanh": 0,
+    "thao_tac": 799944
+   },
+   "13_colussi": {
+    "xuat_hien": 99993,
+    "so_sanh": 100000,
+    "thao_tac": 0
+   },
+   "14_galil_giancarlo": {
+    "xuat_hien": 99993,
+    "so_sanh": 100000,
+    "thao_tac": 0
+   },
+   "15_optimal_mismatch": {
+    "xuat_hien": 99993,
+    "so_sanh": 799944,
+    "thao_tac": 0
+   },
+   "16_maximal_shift": {
+    "xuat_hien": 99993,
+    "so_sanh": 799944,
+    "thao_tac": 0
+   },
+   "17_skip_search": {
+    "xuat_hien": 99993,
+    "so_sanh": 799944,
+    "thao_tac": 12500
+   },
+   "18_horspool": {
+    "xuat_hien": 99993,
+    "so_sanh": 799944,
+    "thao_tac": 0
+   },
+   "19_quick_search": {
+    "xuat_hien": 99993,
+    "so_sanh": 799944,
+    "thao_tac": 0
+   },
+   "20_tuned_bm": {
+    "xuat_hien": 99993,
+    "so_sanh": 699951,
+    "thao_tac": 100000
+   },
+   "21_raita": {
+    "xuat_hien": 99993,
+    "so_sanh": 899937,
+    "thao_tac": 0
+   }
+  }
+ }
+]
